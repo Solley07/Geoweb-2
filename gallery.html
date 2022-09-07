@@ -1,0 +1,180 @@
+<html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- team.html  29 Nov 2019 03:34:14 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Geodata">
+  <meta name="author" content="AlexaTheme">
+  <title>Geodata Nigeria | Real Estate & Construction</title>
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="img/Titleicon.png">
+
+<link rel="stylesheet" href="css/fontawesome.min.css">
+
+<link rel="stylesheet" href="css/themify-icons.css">
+
+<link rel="stylesheet" href="css/elegant-line-icons.css">
+
+<link rel="stylesheet" href="css/elegant-font-icons.css">
+
+<link rel="stylesheet" href="css/flaticon.css">
+
+<link rel="stylesheet" href="css/animate.min.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/slick.css">
+
+<link rel="stylesheet" href="css/slider.css">
+
+<link rel="stylesheet" href="css/odometer.min.css">
+
+<link rel="stylesheet" href="css/venobox/venobox.css">
+
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<link rel="stylesheet" href="css/main.css">
+
+<link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <title>boostrap 4 responsive image gallery</title>
+</head>
+
+<body>
+  
+    <header class="header">
+    <div class="primary-header">
+    <div class="container">
+    <div class="primary-header-inner">
+    <div class="header-logo">
+    <a href="index.html"><img src="img/logo-dark.png" alt="Geodata"></a>
+    </div>
+    <div class="header-menu-wrap">
+      <ul class="dl-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a>
+          <ul>
+           
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="testimonial.html">Testimonial</a></li>
+          </ul>
+          </li>
+        <li><a href="services-2.html">Services</a></li>
+        <li><a href="project-single.html">Projects</a></li>
+        
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="header-right">
+    <a class="menu-btn" href="Brochure/Geodata-General-Brochure.pdf" target="_blank">View Brochure</a>
+    
+    <div class="mobile-menu-icon">
+    <div class="burger-menu">
+    <div class="line-menu line-half first-line"></div>
+    <div class="line-menu"></div>
+    <div class="line-menu line-half last-line"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+        <div class="col-lg-8 col-md-6 sm-padding">
+        <div class="section-heading mb-40">
+        <span>gallery</span>
+        <h2>See our pictures</h2>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-6 sm-padding text-right">
+     
+        </div>
+        </div>
+          
+      
+          
+      <div class="row">
+          <div class="column">
+            <img src="img/project-1.png" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/project-2.png" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/project-3.png" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/project-4.png" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/MD1.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/MD2.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/MD6.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/MD8.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/MD9.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/Villa6.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/Villa5.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/Villa3.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/Team.JPG" alt="" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/Team8.JPG" alt="" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        <!-- The expanding image container -->
+        <div class="containergal">
+          <!-- Close the image -->
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        
+          <!-- Expanded image -->
+          <img id="expandedImg" style="width:100%">
+        
+          <!-- Image text -->
+          <div id="imgtext"></div>
+        </div>
+      </div>
+      
+      </div>
+      
+      </section>
+  <script>function myFunction(imgs) {
+    // Get the expanded image
+    var expandImg = document.getElementById("expandedImg");
+    // Get the image text
+    var imgText = document.getElementById("imgtext");
+    // Use the same src in the expanded image as the image being clicked on from the grid
+    expandImg.src = imgs.src;
+    // Use the value of the alt attribute of the clickable image as text inside the expanded image
+    imgText.innerHTML = imgs.alt;
+    // Show the container element (hidden with CSS)
+    expandImg.parentElement.style.display = "block";
+  }</script>
+</body>
+
+</html>
